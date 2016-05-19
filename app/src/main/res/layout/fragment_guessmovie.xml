@@ -1,0 +1,83 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/scrollView"
+    android:background="#000d63f8">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.abdulmoiedawan.assignment3.GuessMovieFragment"
+    tools:showIn="@layout/activity_guessmovie"
+    android:background="#00d06bf9">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="20"
+
+        android:textAlignment="center"
+        android:id="@+id/score"
+        android:drawableLeft="@drawable/star"
+        android:drawablePadding="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="HighScore"
+        android:id="@+id/highscore"
+        android:drawableLeft="@drawable/guesshighscore"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center"/>
+
+    <ImageView
+
+        android:layout_width="270dp"
+        android:layout_height="270dp"
+        android:id="@+id/movieimage"
+        android:layout_below="@+id/highscore"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+
+
+        />
+
+    <EditText
+android:layout_marginTop="20dp"
+        android:layout_below="@+id/movieimage"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:id="@+id/movie_name"
+        android:hint="Enter Movie Name here"
+        android:background="#79c0d6fc" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="     Guess      "
+        android:id="@+id/guess_button"
+        android:layout_below="@+id/movieimage"
+        android:layout_toEndOf="@+id/movie_name"
+        android:layout_toRightOf="@+id/movie_name"
+        android:background="#b9f46a15"
+        android:layout_alignBottom="@+id/movie_name" />
+
+
+</RelativeLayout>
+</ScrollView>

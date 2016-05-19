@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape >
+
+            //applying the colour to the button.
+            <stroke android:width="2dp"
+                android:color="#ffffff"
+                />
+            <corners android:bottomLeftRadius="40dp"
+                android:bottomRightRadius="40dp"
+                android:topLeftRadius="40dp"
+                android:topRightRadius="40dp"/>
+
+
+
+        </shape>
+    </item>
+    <item android:drawable="@drawable/scoreicon"/>
+</layer-list>

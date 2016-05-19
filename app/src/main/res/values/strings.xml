@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Assignment3</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_guess_movie">GuessMovie</string>
+    <string name="title_activity_guessmovie">guessmovie</string>
+    <string name="title_activity_search_movie">SearchMovie</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="Genre">Genre</string>
+    <string name="Time">N/A</string>
+    <string name="Rating">Rating</string>
+    <string name="Votes">Votes</string>
+    <string name="Release_Date">Release Date</string>
+    <string name="Awards">Awards</string>
+    <string name="Writer">writer</string>
+    <string name="Director">Director</string>
+    <string name="Language">Language</string>
+    <string name="Country">Country</string>
+    <string name="title_activity_guess_answer">guessAnswer</string>
+</resources>
